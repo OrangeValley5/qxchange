@@ -97,7 +97,8 @@ class _UsdcState extends State<Usdc> {
     }
   }
 
-  final String textToCopy = '0x3f7832693e244208f7786ef6c7e474692dbd078e';
+  //final String textToCopy = '0x3f7832693e244208f7786ef6c7e474692dbd078e';
+  final String textToCopy = 'xxxxxxxxxxxxxxxxxxxxxxxxxx';
 
   void _showCustomDialog() {
     showDialog(
@@ -199,7 +200,7 @@ class _UsdcState extends State<Usdc> {
                   child: Container(
                     height: 180,
                     width: 180,
-                    child: Image.asset('lib/images/oketh.png'),
+                    child: Image.asset('lib/images/barz.png'),
                   ),
                 ),
                 const SizedBox(
@@ -236,7 +237,7 @@ class _UsdcState extends State<Usdc> {
                       ),
                       Expanded(
                         child: Text(
-                          '0x3f7832693e244208f7786ef6c7e474692dbd078e',
+                          'xxxxxxxxxxxxxxxxxxxxxxxxxx',
                           style: GoogleFonts.poppins(
                               fontWeight: FontWeight.w400,
                               fontSize: 12,
@@ -249,8 +250,8 @@ class _UsdcState extends State<Usdc> {
                       GestureDetector(
                         onTap: () {
                           Clipboard.setData(ClipboardData(text: textToCopy));
-                          TopSnackBar.show(context,
-                              '0x3f7832693e244208f7786ef6c7e474692dbd078e');
+                          TopSnackBar.show(
+                              context, 'xxxxxxxxxxxxxxxxxxxxxxxxxx');
                         },
                         child: Container(
                           padding: EdgeInsets.all(4),
@@ -258,7 +259,7 @@ class _UsdcState extends State<Usdc> {
                               color: Colors.white,
                               borderRadius: BorderRadius.circular(50)),
                           child: const Icon(
-                            Iconsax.copy,
+                            Icons.copy_outlined,
                             color: Color.fromARGB(255, 163, 163, 163),
                             size: 15,
                           ),

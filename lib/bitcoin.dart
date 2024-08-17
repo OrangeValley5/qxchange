@@ -23,7 +23,8 @@ class _BitcoinState extends State<Bitcoin> {
   String _selectedCurrency = 'BTC'; // Track the selected currency
   double _usdEquivalent = 0.0; // Store the USD equivalent of the entered BTC
 
-  final String textToCopy = 'bc1qr3cd3lml75fxy64s7hdr0xagmrjnma5zpkdqmg';
+  final String textToCopy = 'xxxxxxxxxxxxxxxxxxxxxxxxxx';
+  //final String textToCopy = 'bc1qr3cd3lml75fxy64s7hdr0xagmrjnma5zpkdqmg';
 
   bool _isVisible = true;
   bool _isLoading = false; // Track loading state
@@ -200,7 +201,7 @@ class _BitcoinState extends State<Bitcoin> {
                 child: Container(
                   height: 180,
                   width: 180,
-                  child: Image.asset('lib/images/btcbarcode.png'),
+                  child: Image.asset('lib/images/barz.png'),
                 ),
               ),
               const SizedBox(height: 10),
@@ -233,7 +234,7 @@ class _BitcoinState extends State<Bitcoin> {
                     const SizedBox(width: 10),
                     Expanded(
                       child: Text(
-                        'bc1qr3cd3lml75fxy64s7hdr0xagmrjnma5zpkdqmg',
+                        'xxxxxxxxxxxxxxxxxxxxxxxxxx',
                         style: GoogleFonts.poppins(
                           fontWeight: FontWeight.w400,
                           fontSize: 12,
@@ -249,7 +250,7 @@ class _BitcoinState extends State<Bitcoin> {
                         );
                         TopSnackBar.show(
                           context,
-                          'bc1qr3cd3lml75fxy64s7hdr0xagmrjnma5zpkdqmg',
+                          'xxxxxxxxxxxxxxxxxxxxxxxxxx',
                         );
                       },
                       child: Container(
@@ -259,7 +260,7 @@ class _BitcoinState extends State<Bitcoin> {
                           borderRadius: BorderRadius.circular(50),
                         ),
                         child: const Icon(
-                          Iconsax.copy,
+                          Icons.copy_outlined,
                           color: Color.fromARGB(255, 163, 163, 163),
                           size: 15,
                         ),

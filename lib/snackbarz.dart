@@ -40,7 +40,7 @@ class TopSnackBar {
                 Row(
                   children: [
                     Icon(
-                      Iconsax.tick_circle,
+                      Icons.check_circle_outline_sharp,
                       size: 18,
                       color: const Color(0xFF00B807),
                     ),

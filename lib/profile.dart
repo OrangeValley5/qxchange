@@ -214,7 +214,7 @@ class _ProfileState extends State<Profile> {
                       child: ElevatedButton(
                         style: ElevatedButton.styleFrom(
                           elevation: 0,
-                          primary: Color.fromARGB(255, 230, 255, 231),
+                          primary: const Color.fromARGB(255, 230, 255, 231),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(5),
                           ),
@@ -292,7 +292,7 @@ class _ProfileState extends State<Profile> {
                       padding: const EdgeInsets.all(18),
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
-                          color: Color.fromARGB(255, 243, 243, 243),
+                          color: const Color.fromARGB(255, 243, 243, 243),
                           borderRadius: BorderRadius.circular(10)),
                       child: Row(
                         children: [
@@ -301,13 +301,13 @@ class _ProfileState extends State<Profile> {
                             decoration: BoxDecoration(
                                 color: Color.fromARGB(255, 246, 255, 248),
                                 borderRadius: BorderRadius.circular(30)),
-                            child: Icon(
+                            child: const Icon(
                               Icons.person_outline,
                               color: Color.fromARGB(255, 0, 198, 36),
                               size: 18,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           Expanded(
@@ -319,7 +319,7 @@ class _ProfileState extends State<Profile> {
                                   color: Color.fromARGB(255, 25, 25, 25)),
                             ),
                           ),
-                          Icon(
+                          const Icon(
                             Icons.arrow_forward_ios_outlined,
                             color: Color.fromARGB(255, 163, 163, 163),
                             size: 14,
@@ -352,13 +352,13 @@ class _ProfileState extends State<Profile> {
                             decoration: BoxDecoration(
                                 color: Color.fromARGB(255, 246, 255, 248),
                                 borderRadius: BorderRadius.circular(30)),
-                            child: Icon(
+                            child: const Icon(
                               Icons.home_outlined,
                               color: Color.fromARGB(255, 0, 198, 36),
                               size: 18,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           Expanded(
@@ -370,7 +370,7 @@ class _ProfileState extends State<Profile> {
                                   color: Color.fromARGB(255, 25, 25, 25)),
                             ),
                           ),
-                          Icon(
+                          const Icon(
                             Icons.arrow_forward_ios_outlined,
                             color: Color.fromARGB(255, 163, 163, 163),
                             size: 14,
@@ -403,13 +403,13 @@ class _ProfileState extends State<Profile> {
                             decoration: BoxDecoration(
                                 color: Color.fromARGB(255, 246, 255, 248),
                                 borderRadius: BorderRadius.circular(30)),
-                            child: Icon(
+                            child: const Icon(
                               Icons.lock_outline,
                               color: Color.fromARGB(255, 0, 198, 36),
                               size: 18,
                             ),
                           ),
-                          SizedBox(
+                          const SizedBox(
                             width: 10,
                           ),
                           Expanded(
@@ -421,7 +421,7 @@ class _ProfileState extends State<Profile> {
                                   color: Color.fromARGB(255, 25, 25, 25)),
                             ),
                           ),
-                          Icon(
+                          const Icon(
                             Icons.arrow_forward_ios_outlined,
                             color: Color.fromARGB(255, 163, 163, 163),
                             size: 14,
